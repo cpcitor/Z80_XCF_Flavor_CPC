@@ -1,5 +1,24 @@
 # Z80 XCF Flavor
 
+This is a port to the Amstrad CPC by Cpcitor of the software below.
+
+Original README below.
+
+## How to run
+
+This repository includes a project file to build it in one `make` with https://github.com/cpcitor/cpc-dev-tool-chain .
+
+* `make run` will run it with cpcec
+* `make run-cap32` will run it with caprice32
+
+You can build a disk image or tape image or audio file to send to a real CPC or emulator:
+
+* `make dsk`
+* `make cdt`
+* `make wav`
+
+# Z80 XCF Flavor
+
 ![](https://zxe.io/software/Z80_XCF_Flavor/assets/images/zx-spectrum-badge.svg)
 [![](https://github.com/redcode/Z80_XCF_Flavor/actions/workflows/build.yml/badge.svg)](https://github.com/redcode/Z80_XCF_Flavor/actions/workflows/build.yml)
 
@@ -45,7 +64,7 @@ Many thanks to the following people (in chronological order):
 
 ## License
 
-Copyright © 2022-2024 Manuel Sainz de Baranda y Goñi.  
+Copyright © 2022-2024 Manuel Sainz de Baranda y Goñi.
 
 <img src="https://zxe.io/software/Z80_XCF_Flavor/assets/images/gplv3.svg" height="70" align="right">
 
